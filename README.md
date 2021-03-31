@@ -8,7 +8,7 @@ Com o Fibra é possível calcular o preço dos seguintes títulos | Bonds availa
 ### Títulos do Governo | Government Bonds
 - NTN-B: Nota do Tesouro Nacional Série B.
 - NTN-F: Nota do Tesouro Nacional Série F.
-- LTN: Letra do Tesouro Nancional.
+- LTN: Letra do Tesouro Nacional.
 
 ### Títulos Corporativos - Debêntures | Corporate Bonds
 - Percentual CDI.
