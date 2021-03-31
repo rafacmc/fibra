@@ -76,4 +76,4 @@ Calendário de eventos | Events calendar: `cal_natura = {"2021-09-27": 1}`
 
 `natura.des()`
 
-Veja alguns exemplos de uso em `Bonds.ipynb` e `Debentures.ipynb`. See more in Bonds.ipynb` and `Debentures.ipynb`.
+Veja alguns exemplos de uso em Bonds.ipynb e Debentures.ipynb. See more in Bonds.ipynb and Debentures.ipynb.
