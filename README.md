@@ -39,7 +39,6 @@ No jupyter notebook comece por | Start with jupyter notebook:
 | 2025-02-17 |
 | 2025-08-15 |
 | 2026-02-18 |
-|    ....    | 
 
 ### Fluxo de caixa | Cash flow
 
@@ -95,12 +94,12 @@ No jupyter notebook comece por | Start with jupyter notebook:
 - ***TAXA***: Taxa indicativa (taxa de mercado) da ANBIMA.
 - ***FREQ***: Frequência de pagamentos (1: Anual, 2: Semestral, 3: Trimestral, etc).
 
-DATA_natura = DATA_REF. 
-VNE_natura = 10000. 
-VNA_natura = 10000. 
-PU_natura = 10170.808970. 
-TAXA_natura = 0.7883. 
-FREQ_natura = 2. 
+DATA_natura = DATA_REF<br/>
+VNE_natura = 10000
+VNA_natura = 10000<br/>
+PU_natura = 10170.808970
+TAXA_natura = 0.7883<br/>
+FREQ_natura = 2<br/>
 
 Calendário de eventos | Events calendar:  
 `cal_natura = {"2021-09-27": 1}`
