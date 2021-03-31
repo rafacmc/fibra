@@ -2,4 +2,5 @@
 * text=auto
 * linguist-language
 *.python linguist-detectable=true
-*.rb linguist-language=Python
+*.py linguist-language=Python
+*.ipynb linguist-language=Jupyter Notebook
