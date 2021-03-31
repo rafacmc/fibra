@@ -2,4 +2,4 @@
 * text=auto
 * linguist-language
 *.python linguist-detectable=true
-*.py linguist-language=Python
+*.rb linguist-language=Python
