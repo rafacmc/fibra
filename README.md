@@ -47,10 +47,15 @@ No jupyter notebook comece por | Start with jupyter notebook:
 - ***FREQ***: Frequência de pagamentos (1: Anual, 2: Semestral, 3: Trimestral, etc).
 
 DATA_natura = DATA_REF
+
 VNE_natura = 10000
+
 VNA_natura = 10000
+
 PU_natura = 10170.808970
+
 TAXA_natura = 0.7883
+
 FREQ_natura = 2
 
 Calendário de eventos | Events calendar: `cal_natura = {"2021-09-27": 1}`
@@ -70,3 +75,5 @@ Calendário de eventos | Events calendar: `cal_natura = {"2021-09-27": 1}`
 ### Dados do título | Bond overview
 
 `natura.des()`
+
+Veja alguns exemplos de uso em `Bonds.ipynb` e `Debentures.ipynb`. See more in Bonds.ipynb` and `Debentures.ipynb`.
