@@ -27,6 +27,19 @@ No jupyter notebook comece por | Start with jupyter notebook:
 
 `bond.schedule()`
 
+| Date       |
+| -----------|
+|	2021-08-16 |
+|	2022-02-15 |
+|	2022-08-15 |
+|	2023-02-15 |
+|	2023-08-15 |
+|	2024-02-15 |
+|	2024-08-15 |
+| 2025-02-17 |
+| 2025-08-15 |
+| 2026-02-18 |
+
 ### Fluxo de caixa | Cash flow
 
 `bond.cashflow()`
