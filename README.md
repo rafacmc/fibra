@@ -3,27 +3,27 @@ FIBRA - Fixed Income Brazil. Government and Corporate Bonds Pricing.
 
 O módulo permite precificar títulos públicos federais e corporativos do Brasil.
 
-Com o Fibra é possível calcular o preço dos seguintes títulos | Bonds available:
+Com o Fibra é possível calcular o preço dos seguintes títulos (bonds available):
 
-### Títulos do Governo | Government Bonds
+### Títulos do Governo (Government Bonds)
 - NTN-B: Nota do Tesouro Nacional Série B.
 - NTN-F: Nota do Tesouro Nacional Série F.
 - LTN: Letra do Tesouro Nacional.
 
-### Títulos Corporativos - Debêntures | Corporate Bonds
+### Títulos Corporativos - Debêntures (Corporate Bonds)
 - Percentual CDI.
 - DI Spread.
 - IPCA Spread.
 
-No jupyter notebook comece por | Start with jupyter notebook:
+No jupyter notebook comece por (start with jupyter notebook):
 
 `%run ../docs/fibra.py`
 
-## Notas do Tesouro Nacional | Bonds
+## Notas do Tesouro Nacional (Bonds)
 
 `bond = Bond(date="2021-03-29", maturity="2050-08-15", ytm=4.3023, coupon=6, freq=2)`
 
-### Calendário de pagamentos | Settlement schedule
+### Calendário de pagamentos (Settlement schedule)
 
 `bond.schedule()`
 
@@ -40,7 +40,7 @@ No jupyter notebook comece por | Start with jupyter notebook:
 | 2025-08-15 |
 | 2026-02-18 |
 
-### Fluxo de caixa | Cash flow
+### Fluxo de caixa (Cash flow)
 
 `bond.cashflow()`
 
@@ -56,7 +56,7 @@ No jupyter notebook comece por | Start with jupyter notebook:
 | 2025-02-17 |  979 | 3.884921 |     2.9563 |         2.510026 |
 | 2025-08-15 | 1102 | 4.373016 |     2.9563 |         2.458946 |
 
-### Dados do título | Bond overview
+### Dados do título (Bond overview)
 
 `bond.des()`
 
@@ -83,9 +83,9 @@ No jupyter notebook comece por | Start with jupyter notebook:
 |           Convexity |    341.0802 |
 |         Sensibility |    -13.4672 |
 
-## Debêntures | Corporate Bonds
+## Debêntures (Corporate Bonds)
 
-### Parâmetros | Required parameters
+### Parâmetros (Required parameters)
 
 - ***DATA***: Data de referência para o cálculo do preço do ativo.
 - ***VNE***: Valor Nominal de Emissão.
@@ -95,20 +95,20 @@ No jupyter notebook comece por | Start with jupyter notebook:
 - ***FREQ***: Frequência de pagamentos (1: Anual, 2: Semestral, 3: Trimestral, etc).
 
 DATA_natura = DATA_REF<br/>
-VNE_natura = 10000
+VNE_natura = 10000<br/>
 VNA_natura = 10000<br/>
-PU_natura = 10170.808970
+PU_natura = 10170.808970<br/>
 TAXA_natura = 0.7883<br/>
 FREQ_natura = 2<br/>
 
-Calendário de eventos | Events calendar:  
+Calendário de eventos (Events calendar):  
 `cal_natura = {"2021-09-27": 1}`
 
 `natura = DebentureSpread(date=DATA_natura, maturity="2021-09-25", vne=VNE_natura, vna=VNA_natura, pu=PU_natura,  
                           issue_spread=1.75, market_spread=TAXA_natura, freq=FREQ_natura, redemption=cal_natura,  
                           yield_curve_file=YIELD_CURVE_PATH)`
                  
-### Dados do título | Bond overview
+### Dados do título (Bond overview)
 
 `natura.des()`
 |                      | Debenture DI Spread |
@@ -139,6 +139,6 @@ Calendário de eventos | Events calendar:
 | 2021-03-25 |    5 | 2.645583 | 10000.0 | 179.583171 |         0.0 |   179.583171 |       179.462193 |
 | 2021-09-27 |  133 | 3.974169 | 10000.0 | 292.831916 |     10000.0 | 10292.831916 |     10041.583758 |
 
-Veja alguns exemplos de uso em Bonds.ipynb e Debentures.ipynb.
+Veja alguns exemplos de uso em [Bonds.ipynb](https://github.com/rafacmc/fibra/blob/main/examples/Bonds.ipynb) e [Debentures.ipynb](https://github.com/rafacmc/fibra/blob/main/examples/Debentures.ipynb).
 
-See more in Bonds.ipynb and Debentures.ipynb.
+See more in [Bonds.ipynb](https://github.com/rafacmc/fibra/blob/main/examples/Bonds.ipynb) and [Debentures.ipynb](https://github.com/rafacmc/fibra/blob/main/examples/Debentures.ipynb).
