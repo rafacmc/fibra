@@ -139,7 +139,7 @@ natura = DebentureSpread(date=DATA_natura, maturity="2021-09-25", vne=VNE_natura
 |          Market rate |             0.7883% |
 |             Duration |                0.52 |
 
-### Fluxo de caixa | Cash flow
+### Fluxo de caixa (Cash flow)
 
 `natura.cashflow()`
 |       Date | Days |       DI |     VNA |  Interests | Redemptions |     Payments | PV of Cash Flows |
