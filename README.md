@@ -112,8 +112,8 @@ Declare a classe `DebentureSpread` (Declare class `DebentureSpread`):
 
 ```python
 natura = DebentureSpread(date=DATA_natura, maturity="2021-09-25", vne=VNE_natura, vna=VNA_natura, pu=PU_natura,  
-                          issue_spread=1.75, market_spread=TAXA_natura, freq=FREQ_natura, redemption=cal_natura,  
-                          yield_curve_file=YIELD_CURVE_PATH)
+                         issue_spread=1.75, market_spread=TAXA_natura, freq=FREQ_natura, redemption=cal_natura,  
+                         yield_curve_file=YIELD_CURVE_PATH)
 ```
                  
 ### Dados do título (Bond overview)
